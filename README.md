@@ -1,13 +1,12 @@
-<p align="center">
+<h1 align="left">
   development mode
-  * npm run develop
-  *visit: localhost:8000
-</p>
-
-<p align="center">
+</h1>
+* npm run develop
+  * visit: localhost:8000
+<h1 align="left">
   production mode
+</h1>
   * https://damiancwykiel-blog-page.netlify.com
-</p>
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
