@@ -1,12 +1,7 @@
 <h1 align="left">
-  development mode
-</h1>
-   <span>npm run develop<span>
-  <span>visit: localhost:8000<span>
-<h1 align="left">
   production mode
 </h1>
-    <ah href="https://damiancwykiel-blog-page.netlify.com"></a>
+    <a href="https://damiancwykiel-blog-page.netlify.com"></a>
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
