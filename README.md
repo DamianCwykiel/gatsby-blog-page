@@ -1,10 +1,10 @@
-<p>
+<p align="center">
   development mode
   * npm run develop
   *visit: localhost:8000
 </p>
 
-<p>
+<p align="center">
   production mode
   * https://damiancwykiel-blog-page.netlify.com
 </p>
