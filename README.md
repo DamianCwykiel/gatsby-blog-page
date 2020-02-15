@@ -1,3 +1,14 @@
+<p>
+  development mode
+  * npm run develop
+  *visit: localhost:8000
+</p>
+
+<p>
+  production mode
+  * https://damiancwykiel-blog-page.netlify.com
+</p>
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
