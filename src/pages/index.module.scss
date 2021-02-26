@@ -1,0 +1,206 @@
+//aboutMe
+.intro-container {
+    align-items: center;
+    text-align: center;
+    background-color:#ffffff;
+    border-bottom: 2px solid #F2F2F2;
+    // border-top: 1px solid #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+    margin-top: 5rem;
+}
+
+.block {
+    background: url("/img/block.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    max-height: 50vh;
+    min-width: 100vw;
+    margin-top: 4rem;
+}
+
+.img {
+    min-height: 15rem;
+}
+
+.intro-topic {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10rem;
+    max-width: 100vw;
+    overflow: hidden;
+    p {
+        font-size: 12px;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+
+.figure {
+    background: url("/img/1-dc-2.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 30rem;
+    min-width: 30rem;
+    margin: 0 auto;
+}
+
+.container-aboutMe {
+    @extend .intro-container;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    min-height: 100vh;
+    // font-weight: 600;
+    // padding: 5rem; 
+    position: relative;
+    z-index: 1;
+}
+
+.aboutMe-text {
+    flex-grow: 1;
+    max-width: 50vw;
+    margin: 10rem auto;
+}
+
+.aboutMe-links {
+    color: dodgerblue;
+    font-weight: 600;
+}
+
+.aboutMe-links:visited {
+    color: darkorchid;
+}
+
+
+//skills
+.container-skills{
+    @extend .container-aboutMe;
+    background-color: #F8F8FF;
+    min-height: 100vh;
+    justify-content: center;
+    border-bottom: none;
+    position: relative;
+    z-index: 1;
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+.skills-slider {
+    background-color: #f8f8ff;
+    min-height: 50rem;
+    display: flex;
+    flex-direction: row;
+    padding: 10rem;
+}
+
+//contact
+
+.container-contact {
+    @extend .intro-container;
+    // background-color: #EAEAEA;
+    background: url("/img/contactimg.png") no-repeat center center;
+    background-size: cover;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+}
+
+.contactBlock {
+    // background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    margin: auto 0;
+    height: 30rem;
+}
+
+.contactDetails {
+    // background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 50vw;
+    min-height: 20rem;
+    margin: auto 0;
+    padding: 5rem 0;
+    h2 {
+        font-family: cursive;
+    }
+    p {
+      font-family: cursive;  
+    }
+}
+
+.contact-button {
+    background-color: #f8f8ff;
+    border: 1px solid #D8DEE9;
+    border-radius: 5%;
+    cursor: pointer;
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: cursive;
+    flex-direction: column;
+    width: 8rem;
+    height: 4rem;
+    padding: 1rem 0;
+    text-decoration: none;
+}
+
+.contact-button-link {
+    color: #555;
+    text-decoration: none;
+}
+
+//scrollBAr
+
+::-webkit-scrollbar {
+    width: 1em;
+    background: #d8dee9;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #d8dee9;
+  -webkit-border-radius: 7%;
+  border-radius: 7%;
+}
+
+::-webkit-scrollbar-button {
+  background: #adb5bd;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #adb5bd; 
+//   outline: 1px solid slategrey;
+  border-radius: 7%;
+  -webkit-border-radius: 7%;
+  -webkit-box-shadow: inset 0 0 6px #d8dee9; 
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #696969; 
+}
+
+@media (min-width: 453px) and (max-width: 768px) {
+    
+    .intro-container {
+        flex-direction: column;
+        margin: 0 0;
+        min-height: 10rem;
+    }
+
+    .figure {
+        display: none;
+        height:5rem;
+        width: 5rem;
+    }
+}
+

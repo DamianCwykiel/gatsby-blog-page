@@ -1,9 +1,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Site Powered by Gatsby.',
-    author: 'Damian Cwykiel',
-    year: '© 2020'
+    title: 'Website.dc',
+    author: 'Cd',
+    year: '© 2021'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

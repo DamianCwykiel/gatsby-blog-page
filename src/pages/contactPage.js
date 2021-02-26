@@ -7,8 +7,8 @@ const contactPage = () => {
     return (
         <Layout>
             <Head title="Contact"/>
-            <h1>Contact me</h1>
-            <h2>The best way to contact me - <a href="https://damiancwykiel-portfolio.pl" target="_blank">Portfolio</a></h2>
+            <h2>Contact me</h2>
+            <h3>The best way to contact - <a href="https://damiancwykiel-website.eu" target="_blank">Portfolio</a></h3>
         </Layout>
     )
 }
