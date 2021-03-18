@@ -1,0 +1,98 @@
+
+.skillsItems {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    min-width: 95vw;
+    margin: 0 auto;
+    // background-color: #A770C1;
+  }
+  
+  .rec-carousel-item:focus {
+    outline: none;
+    // box-shadow: inset 0 0 1px 0px violet;
+  }
+
+
+.skills-slider{
+    display: flex;
+    // background-color: violet;
+    flex-direction: column;
+    min-width: 100vw;
+    // min-height: 30vh;
+    background-color: #ffffff;
+    // min-height: 50vh;
+    // display: flex;
+    // flex-direction: row;
+    padding-top: 5rem;
+}
+
+.js{
+  background: url("/img/icons/js-skills-1.png") no-repeat center center;
+  // background-size: cover;
+}
+
+.jq{
+  background: url("/img/icons/jquery-skills-1.png") no-repeat center center;
+  // background-size: cover;
+}
+
+.react{
+  background: url("/img/icons/react-skills-1.jpg") no-repeat center center;
+  // background-size: cover;
+}
+
+.vue{
+  background: url("/img/icons/vue-skills-1.jpeg") no-repeat center center;
+  // background-size: cover;
+}
+
+.node{
+  background: url("/img/icons/node-skills-1.jpg") no-repeat center center;
+  // background-size: cover;
+}
+
+.mongodb{
+  background: url("/img/icons/mongodb-skills-1.png") no-repeat center center;
+  // background-size: cover;
+}
+.firebase{
+  background: url("/img/icons/firebase-skills-1.jpg") no-repeat center center;
+  // background-size: cover;
+}
+.jest{
+  background: url("/img/icons/jest-skills-1.png") no-repeat center center;
+  // background-size: cover;
+}
+
+.css{
+  background: url("/img/icons/css-skills-1.png") no-repeat center center;
+  // background-size: cover;
+}
+
+.sass{
+  background: url("/img/icons/scss-skills-1.png") no-repeat center center;
+  // background-size: cover;
+}
+
+.bootstrap{
+  background: url("/img/icons/bootstrap-skills-1.png") no-repeat center center;
+  // background-size: cover;
+}
+
+.php{
+  background: url("/img/icons/php-skills-1.png") no-repeat center center;
+  // background-size: cover;
+}
+
+.mysql{
+  background: url("/img/icons/mysql-skills-1.jpg") no-repeat center center;
+  // background-size: cover;
+}
+
+.cpp{
+  background: url("/img/icons/cpp-skills-1.png") no-repeat center center;
+  // background-size: cover;
+}

@@ -6,9 +6,18 @@
 .blog-header {
     min-width: 70vw;
     text-align: center;
+    h1 {
+        padding-top: 12rem;
+    }
     p {
         font-size: 13px;
     }
+}
+
+main {
+    // background: url("/img/chatapp.png") no-repeat center center;
+    // background-size: cover;
+    background-color: #ffffff;
 }
 
 .posts {
@@ -25,9 +34,10 @@
     margin: 1rem 0;
     min-height: 20rem;
     min-width: 40rem;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-left: .4rem solid #e4e4e4;
     padding: 5rem 0;
+    box-shadow: 0 0 5px #ADB1B7;
 
     .posts-item {
         justify-content: space-around;

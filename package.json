@@ -25,11 +25,14 @@
     "gatsby-source-contentful": "^2.1.79",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-remark": "^2.6.48",
+    "gsap": "^3.6.0",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-elastic-carousel": "^0.11.2",
     "react-helmet": "^5.2.1",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "env-cmd": "^10.0.1",

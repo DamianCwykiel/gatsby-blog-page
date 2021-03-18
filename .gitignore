@@ -55,8 +55,12 @@ typings/
 .env*
 
 # gatsby files
+public/page-data
+public/static
+public/render-page.js
+public/render-page.js.map
 .cache/
-public
+# public
 
 # Mac files
 .DS_Store

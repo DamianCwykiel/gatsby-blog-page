@@ -1,0 +1,62 @@
+
+.toolsItems {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    min-width: 95vw;
+    margin: 0 auto;
+    // background-color: #A770C1;
+  }
+  
+  .rec-carousel-item:focus {
+    outline: none;
+    // box-shadow: inset 0 0 1px 0px violet;
+  }
+
+
+.tools-slider{
+    display: flex;
+    // background-color: violet;
+    flex-direction: column;
+    min-width: 60vw;
+    // min-height: 40vh;
+    // background-color: #777777;
+    // min-height: 50vh;
+    // display: flex;
+    // flex-direction: row;
+    // margin: 0 auto;
+    padding-top: 5rem;
+    height: 100vh;
+}
+
+
+.webpack {
+    background: url("/img/icons/3-webpack.png") no-repeat center center;
+    // background-size: cover;
+}
+
+.npm {
+    background: url("/img/icons/1-npm.png") no-repeat center center;
+    // background-size: cover;
+}
+
+.yarn {
+    background: url("/img/icons/1-yarn.png") no-repeat center center;
+    // background-size: cover;
+}
+
+.git {
+    background: url("/img/icons/1-git.png") no-repeat center center;
+    // background-size: cover;
+}
+.postman{
+    background: url("/img/icons/4-postman-1.jpeg") no-repeat center center;
+    // background-size: cover;
+}
+
+.robo3T {
+    background: url("/img/icons/1-robo3T.png") no-repeat center center;
+    // background-size: cover;
+}

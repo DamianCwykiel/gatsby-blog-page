@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
@@ -47,12 +47,11 @@ const Footer = () => {
                     <div className={footerStyles.three}>
                         <ul>
                             <li><p>Other</p></li>
-                            <li><a className={footerStyles.footerNav} href = 'cv/CV/CV-Damian_Cwykiel_ENG.pdf' target = "_blank">CV</a></li>
+                            <li><a className={footerStyles.footerNav} href = 'cv/CV/CV-Damian_Cwykiel_PL.pdf' target = "_blank">CV</a></li>
                             <li></li>
                             <li><a className={footerStyles.footerNav} href = 'cv/CV/CV-Damian_Cwykiel_ENG.pdf' target = "_blank">-</a></li>
                             <li></li>
                             <li><a className={footerStyles.footerNav} href = 'cv/covLttr/cover-letter_PL.pdf' target = "_blank">-</a></li>
-                            <li></li>
                             <li><a className={footerStyles.footerNav} href = 'cv/covLttr/cover-letter_ENG.pdf' target = "_blank">CL</a></li>
                         </ul>
                     </div>

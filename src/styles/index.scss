@@ -22,13 +22,15 @@ html {
   nav,
   section,
   summary {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   audio,
   canvas,
   progress,
   video {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
   }
   audio:not([controls]) {
     display: none;

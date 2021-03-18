@@ -2,7 +2,7 @@
     // background-color:#D8DEE9;
     background-color: #313649;
     // border-bottom: 1px solid #F2F2F2;
-    // border-top: 2px solid #e5e9f0;
+    border-top: 2px solid #f7f7f7f7;
     display: flex;
     flex-direction: column;
     // font-family:;
@@ -14,10 +14,11 @@
 
 .footer {
     align-items: center;
-    display: flex;
+    display: flex; 
     flex-direction: row;
     min-width: 70vw;
     justify-content: center;
+    flex-grow: 1;
 }
 
 .column-container {
@@ -36,7 +37,13 @@
     // background-color: #d8dee9;
     width: 15rem;
     height: 20rem;
-    margin: 2rem 0; 
+    margin: 1rem 0; 
+    p {
+        margin: 0 -1.8rem;
+    }
+    li {
+        padding-top: .8rem;
+    }
     // justify-content: space-between;
 }
 .two {
@@ -47,7 +54,7 @@
     // background-color: #d8dee9;
     width: 15rem;
     height: 20rem;
-    margin: 2rem 0;
+    margin: 1rem 0 2.5rem 0;
     justify-content: space-around;
 }
 .three {
@@ -55,7 +62,7 @@
     display: flex;
     flex-direction: column;
     // background-color: #d8dee9;
-    width: 15rem;
+    width: 10rem;
     height: 20rem;
     margin: 0 0;
     justify-content: space-around;
@@ -63,11 +70,13 @@
 
 .foot {
     background-color: #1D1E22;
+    // border-top: 1px solid #555555;
     display: flex;
+    min-height: 5rem;
     flex-direction: row;
     font-size: 12px;
     justify-content: flex-end;
-    padding: 0 2rem;
+    padding: 1rem 3rem 0 0;
     p {
         color: #555555;
     }

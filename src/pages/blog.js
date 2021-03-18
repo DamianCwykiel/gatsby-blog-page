@@ -1,10 +1,14 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
+// import Header from '../components/header'
+
 import Layout from '../components/layout'
 import blogStyles from './blog.module.scss'
 
 const Blog = () => {
+    let id = [1, 2, 3, 4, 5];
+    
     const data = useStaticQuery(graphql`
         query {
            allContentfulBlogPost (
@@ -35,7 +39,7 @@ const Blog = () => {
                     <ol className={blogStyles.posts}>
                             {data.allContentfulBlogPost.edges.map((edge) => {
                                 return (
-                                    <li className={blogStyles.post}>
+                                    <li key={Math.random(id.toString())} className={blogStyles.post}>
                                         <div className={blogStyles.postsItem}>
                                             <h2>{edge.node.myTitle}</h2>
                                             <p>{edge.node.publishedDate}</p>

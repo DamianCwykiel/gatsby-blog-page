@@ -5,8 +5,9 @@
 }
 
 main {
-    background-color: #C6B067;
-    // margin-top: 7rem;
+    // background-color: #C6B067;
+    background-color: #FBD546;
+    margin-top: -2rem;
     position: relative;
     z-index: 1;
     min-width: 100vw;
@@ -23,9 +24,13 @@ main {
     flex-direction: row;
     padding-top: .5rem;
     min-width: 100vw;
-    max-height: 4rem;
+    min-height: 2rem;
     z-index: 2;
-    opacity: .9;
+    // opacity: .9;
+}
+
+.isDarkMode {
+    background-color: black;
 }
 
 .nav-container {
@@ -51,6 +56,13 @@ main {
         color: brown;
     }
 }
+
+// .title {
+//     position: relative;
+//     min-height: 3rem;
+//     min-width: 15rem;
+//     margin: 0 0 0 3rem;
+// }
 
 .title {
     color: #444;
@@ -98,6 +110,10 @@ main {
     .nav-list {
         flex-direction: column;
         align-content: center; 
+        
+    }
+    .header {
+        text-align: justify;
     }
 
     .header {

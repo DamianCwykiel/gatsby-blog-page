@@ -5,7 +5,8 @@
 }
 .project-container {
     align-items: center;
-    background-color: chocolate;
+    // background-color: chocolate;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     min-width: 100vw;
@@ -16,15 +17,19 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    max-height: 30vh;
     min-width: 50vw;
-    margin: 6rem;
+    margin: 8rem;
+    h1 {
+        padding-top: 10rem;
+    }
     p {
         font-size: 13px;
     }
 }
 
 .project-items {
-    background-color: darkcyan;
+    // background-color: darkcyan;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -37,7 +42,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 1rem 5rem;
+    padding: 2rem 4rem;
 }
 
 .project-items-content {
@@ -47,23 +52,25 @@
     border-left: .5rem solid darkslateblue;
     display: flex;
     flex-direction: column;
-    max-width: 30rem;
-    min-height: 41rem;
+    max-width: 20rem;
+    min-height: 20rem;
     &:hover {
         // cursor: pointer;
         transform: translateY(-5px);
         transition: 0.4s ease-in-out; 
         box-shadow: 0 0 15px #0048A1;
+        opacity: 1;
     }
     img {
         overflow: hidden;
-        max-width: 30rem;
-        max-height: 40rem;
-        // border-bottom: .1px solid #555;
-        // &:hover {
-        //     transform: scale(1.1);
-        //     transition: 0.4s ease-in-out;
-        // }
+        max-width: 25rem;
+        max-height: 20rem;
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.4s ease-in-out;
+            // border-bottom: 1px solid rgb(16, 7, 64);
+            opacity: 1;
+        }
     }
 }
 
@@ -78,6 +85,9 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+    h3 {
+        font-size: 20px;
+    }
     p {
         align-items: flex-start;
         font-size: 15px;
@@ -90,14 +100,14 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    padding: 2rem 2rem;
+    padding: 0.5rem 2rem;
 }
 
 .project-items-content-icons {
     @extend .project-items-content-icons-topic;
     padding: 0 2rem;
     flex-direction: row;
-    padding: 1rem 2rem;
+    padding: 0 1rem 2rem 1rem;
     justify-content: space-around;
 }
 
@@ -111,7 +121,7 @@
         font-family: fantasy;
         padding-left: 1rem;
         letter-spacing: .5px;
-        word-break: break-all;
+        line-height: 1.5rem;
     }
 }
 

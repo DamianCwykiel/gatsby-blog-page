@@ -1,5 +1,5 @@
 .wrapper {
-    background-color: red;
+    background-color: #f7f7f7f7;
     display: flex;
     flex-direction: column;
     font-family: "proxima-nova", Arial, "Lucida Grande", sans-serif;
@@ -9,7 +9,8 @@
 }
 
 .container {
-    background-color: #313649;
+    // background-color: #CEBA75;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -17,5 +18,6 @@
 }
 
 .content {
+    background-color: #CDB974;
     flex-grow: 1;
 }
