@@ -4,9 +4,9 @@ import { Link, graphql, useStaticQuery } from 'gatsby';
 import headerStyles from './header.module.scss'
 // import LayoutStyles from './layout.module.scss'
 
-import gsap from 'gsap';
+import {gsap} from 'gsap/dist/gsap';
 
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 

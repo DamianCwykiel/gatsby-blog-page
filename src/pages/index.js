@@ -15,13 +15,14 @@ import introStyles from './index.module.scss'
 
 // import animate from './animate'
 
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+import { gsap } from 'gsap/dist/gsap';
 
 
-gsap.registerPlugin(ScrollTrigger);
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import { TextPlugin } from 'gsap/dist/TextPlugin';
 
-
+gsap.registerPlugin(ScrollTrigger, TextPlugin);
 
 // let section = document.getElementById('About')
 
@@ -60,14 +61,40 @@ const IndexPage = () => {
         trigger: 'about',
         start: '1px 15vh',
         scrub: 1,
-        // markers: true,
+        // markers: true, 
     }}, [0])
- 
+
+
+
+
+
+gsap.defaults({ease: "none"});
+
+const tl1 = gsap.timeline({repeat: 5, repeatDelay:.8, yoyo:true});
+tl1.from("#h1", {duration: 2, repeat: 1, text: "Hi!", color: '#ff3300', delay: 1})
+tl1.to("#h1", {duration: 2, repeat: 1, text: "Hallo!", color: '#00ccff', delay: 1})
+tl1.to("#h1", {duration: 2, repeat: 1, text: "Cześć!", color: '#40c057', delay: 1})
+
+
+const tl2 = gsap.timeline({repeat: 5, repeatDelay:1.5, yoyo:true});
+tl2.from("#h3", {duration: 3, text: "I'm-Damian.", ease: 'power1.in', delay: 1})
+tl2.to("#h3", {duration: 3, text: "Junior-Web-Dev.", ease: 'power3.Out', delay: 1})
+tl2.to("#h3", {duration: 3, text: "based-in-Poland.", ease: 'power4.Out', delay: 1})
+
+const tl3 = gsap.timeline({repeat: 5, repeatDelay:1.5, yoyo:true});
+tl3.from("#p", {duration: 3, repeat: 5, delay: 1, ease: 'power3.in', color: '#66cd00'});
+tl3.to("#p", {duration: 4, repeat: 5, delay: 1, ease: 'power4.Out', color: '#845ef7'});
+
+const tl4 = gsap.timeline({repeat: 3, repeatDelay:1, yoyo:true});
+tl4.from("#About", {duration: 3, color: '#ffffff', fontSize: '.6rem', opacity: 0.2, textAlign: 'right', ease: 'power1.inOut'})
+tl4.to("#About", {duration: 4, color: '#060606', fontSize: '.9rem', textAlign: 'center', opacity: 1, ease: 'power1.inOut'})
+//   .to("#green", {x:100})
+//   .set("#green",  {text:"I am done"})
     gsap.config({
     
         nullTargetWarn: false,
         
-      });
+      });  
 
     // const about = document.getElementById('About');
 
@@ -88,9 +115,9 @@ const IndexPage = () => {
                 <section className={introStyles.blockIntroBorder}></section> */}
                 <section className={introStyles.introContainer} id ="Intro">
                     <div className={introStyles.introTopic}>
-                        <h1>Hi.</h1>
-                        <h3>I'm Damian.</h3>
-                        <p>Do you need a developer? <a href = "/cv/CV/CV-Damian_Cwykiel_PL.pdf" target="_blank" rel="noopener referrer">Click here.</a></p>
+                        <h1 id='h1'>Hi.</h1>
+                        <h3 id ='h3'>I'm Damian.</h3>
+                        <p id ='p'>Do you need a developer? <a href = "/cv/CV/CV-Damian_Cwykiel_PL.pdf" target="_blank" rel="noopener referrer">Click here.</a></p>
                         {/* <button  type="button" onClick={() => Link('/#')}>cdsfdsf</button> */}
                     </div>
                     <div className={introStyles.introTopic}>

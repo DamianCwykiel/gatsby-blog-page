@@ -6,14 +6,13 @@ import Layout from '../components/layout';
 
 import projectPageStyles from './projectPage.module.scss';
 
-import gsap from 'gsap';
+import {gsap} from 'gsap/dist/gsap';
 
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
-import { Draggable } from 'gsap/Draggable';
+import { Draggable } from 'gsap/dist/Draggable';
 
-gsap.registerPlugin(ScrollTrigger);
-gsap.registerPlugin(Draggable);
+gsap.registerPlugin(ScrollTrigger, Draggable);
 
 const projectsPage = () => {
 
