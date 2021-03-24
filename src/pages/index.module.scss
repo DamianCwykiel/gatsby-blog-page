@@ -3,7 +3,7 @@
     align-items: center;
     text-align: center;
     // background-color:#ffffff;
-    background-color: #ffffff;
+    background-color: #F7F7F7;
     // border-bottom: 2px solid #F2F2F2;
     // border-top: 1px solid #F2F2F2;
     display: flex;
@@ -57,9 +57,9 @@
 }
 
 .figure {
-    background: url("/img/1-dc.jpg") no-repeat center center;
+    background: url("/img/4-dc.png") no-repeat center center;
     background-size: cover;
-    min-height: 35rem;
+    min-height: 50rem;
     min-width: 30rem;
     margin: 0 auto;
 }
@@ -152,12 +152,12 @@
 //tools
 .container-tools {
     @extend .container-skills;
-    // background-color: #555; 
+    background-color: #ffffff; 
 }
 
 .tools-slider {
     @extend .skills-slider;
-    // background-color: #777;
+    background-color: #ffffff;
 }
 
 //contact

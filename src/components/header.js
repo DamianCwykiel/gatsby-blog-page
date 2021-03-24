@@ -23,7 +23,7 @@ const Header = () => {
     `)
         const sec = document.querySelector('header')
 
-        gsap.fromTo(sec, {minHeight: '10rem', backgroundColor: '#fff', borderBottom: 'none'}, 
+        gsap.fromTo(sec, {minHeight: '10rem', backgroundColor: '#F7F7F7', borderBottom: 'none'}, 
         { minHeight: '3rem', backgroundColor: '#212529', borderBottom: '2px solid #111111', color: 'white', duration: 1,
             scrollTrigger: {
                 trigger: 'sec',
